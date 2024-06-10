@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 import com.example.app.repository.UserRepository;
 import org.springframework.ui.Model;
 
-
 @Controller
 public class UserController {
 
