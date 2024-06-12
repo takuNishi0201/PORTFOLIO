@@ -10,10 +10,9 @@ import org.springframework.ui.Model;
 @Controller
 public class UserController {
 
-	@GetMapping("/hello")
-	public String hello(@RequestParam String name, Model m) {
-		// String hello = "Hello, World!";
+	@GetMapping("/home")
+	public String home(@RequestParam String name, Model m) {
 		m.addAttribute("name", name);
-		return "test";
+		return "home";
 	}
 }
